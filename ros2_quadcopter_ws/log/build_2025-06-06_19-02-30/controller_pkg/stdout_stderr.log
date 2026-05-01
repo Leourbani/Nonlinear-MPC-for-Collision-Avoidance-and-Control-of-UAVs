@@ -1,0 +1,47 @@
+running egg_info
+creating ../../../build/controller_pkg/controller_pkg.egg-info
+writing ../../../build/controller_pkg/controller_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../../build/controller_pkg/controller_pkg.egg-info/dependency_links.txt
+writing entry points to ../../../build/controller_pkg/controller_pkg.egg-info/entry_points.txt
+writing requirements to ../../../build/controller_pkg/controller_pkg.egg-info/requires.txt
+writing top-level names to ../../../build/controller_pkg/controller_pkg.egg-info/top_level.txt
+writing manifest file '../../../build/controller_pkg/controller_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../../build/controller_pkg/controller_pkg.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../../build/controller_pkg/controller_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/build/controller_pkg/build
+creating /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/build/controller_pkg/build/lib
+creating /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/build/controller_pkg/build/lib/controller_pkg
+copying controller_pkg/open_node.py -> /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/build/controller_pkg/build/lib/controller_pkg
+copying controller_pkg/server.py -> /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/build/controller_pkg/build/lib/controller_pkg
+copying controller_pkg/solver_generator_ros.py -> /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/build/controller_pkg/build/lib/controller_pkg
+copying controller_pkg/__init__.py -> /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/build/controller_pkg/build/lib/controller_pkg
+running install
+running install_lib
+creating /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/controller_pkg/lib/python3.10/site-packages/controller_pkg
+copying /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/build/controller_pkg/build/lib/controller_pkg/open_node.py -> /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/controller_pkg/lib/python3.10/site-packages/controller_pkg
+copying /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/build/controller_pkg/build/lib/controller_pkg/server.py -> /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/controller_pkg/lib/python3.10/site-packages/controller_pkg
+copying /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/build/controller_pkg/build/lib/controller_pkg/solver_generator_ros.py -> /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/controller_pkg/lib/python3.10/site-packages/controller_pkg
+copying /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/build/controller_pkg/build/lib/controller_pkg/__init__.py -> /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/controller_pkg/lib/python3.10/site-packages/controller_pkg
+byte-compiling /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/controller_pkg/lib/python3.10/site-packages/controller_pkg/open_node.py to open_node.cpython-310.pyc
+byte-compiling /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/controller_pkg/lib/python3.10/site-packages/controller_pkg/server.py to server.cpython-310.pyc
+byte-compiling /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/controller_pkg/lib/python3.10/site-packages/controller_pkg/solver_generator_ros.py to solver_generator_ros.cpython-310.pyc
+byte-compiling /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/controller_pkg/lib/python3.10/site-packages/controller_pkg/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/controller_pkg/share/ament_index
+creating /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/controller_pkg/share/ament_index/resource_index
+creating /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/controller_pkg/share/ament_index/resource_index/packages
+copying resource/controller_pkg -> /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/controller_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/controller_pkg/share/controller_pkg
+running install_egg_info
+Copying ../../../build/controller_pkg/controller_pkg.egg-info to /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/controller_pkg/lib/python3.10/site-packages/controller_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing control_input_converter script to /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/controller_pkg/lib/controller_pkg
+Installing controller_node script to /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/controller_pkg/lib/controller_pkg
+Installing controller_node_basic script to /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/controller_pkg/lib/controller_pkg
+Installing controller_node_conversion script to /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/controller_pkg/lib/controller_pkg
+Installing input_signal_producer_node script to /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/controller_pkg/lib/controller_pkg
+Installing open_node script to /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/controller_pkg/lib/controller_pkg
+writing list of installed files to '/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/build/controller_pkg/install.log'

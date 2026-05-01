@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+e90c72f8fcaa643be8b6b4e9ee78e054 CMakeFiles/simple_quad_uninstall

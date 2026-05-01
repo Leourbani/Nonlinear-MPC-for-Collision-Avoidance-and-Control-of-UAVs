@@ -1,0 +1,5 @@
+/home/vboxuser/ros2_quadcopter_ws/src/controller/controller_pkg/controller_pkg/build/drone_controller/tcp_iface_drone_controller/target/release/build/drone_controller-c47946df7aa99653/build_script_build-c47946df7aa99653: /home/vboxuser/ros2_quadcopter_ws/src/controller/controller_pkg/controller_pkg/build/drone_controller/build.rs
+
+/home/vboxuser/ros2_quadcopter_ws/src/controller/controller_pkg/controller_pkg/build/drone_controller/tcp_iface_drone_controller/target/release/build/drone_controller-c47946df7aa99653/build_script_build-c47946df7aa99653.d: /home/vboxuser/ros2_quadcopter_ws/src/controller/controller_pkg/controller_pkg/build/drone_controller/build.rs
+
+/home/vboxuser/ros2_quadcopter_ws/src/controller/controller_pkg/controller_pkg/build/drone_controller/build.rs:

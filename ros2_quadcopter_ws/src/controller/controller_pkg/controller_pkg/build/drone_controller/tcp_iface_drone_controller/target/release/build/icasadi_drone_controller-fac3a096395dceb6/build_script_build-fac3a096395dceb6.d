@@ -1,0 +1,5 @@
+/home/vboxuser/ros2_quadcopter_ws/src/controller/controller_pkg/controller_pkg/build/drone_controller/tcp_iface_drone_controller/target/release/build/icasadi_drone_controller-fac3a096395dceb6/build_script_build-fac3a096395dceb6: /home/vboxuser/ros2_quadcopter_ws/src/controller/controller_pkg/controller_pkg/build/drone_controller/icasadi_drone_controller/build.rs
+
+/home/vboxuser/ros2_quadcopter_ws/src/controller/controller_pkg/controller_pkg/build/drone_controller/tcp_iface_drone_controller/target/release/build/icasadi_drone_controller-fac3a096395dceb6/build_script_build-fac3a096395dceb6.d: /home/vboxuser/ros2_quadcopter_ws/src/controller/controller_pkg/controller_pkg/build/drone_controller/icasadi_drone_controller/build.rs
+
+/home/vboxuser/ros2_quadcopter_ws/src/controller/controller_pkg/controller_pkg/build/drone_controller/icasadi_drone_controller/build.rs:

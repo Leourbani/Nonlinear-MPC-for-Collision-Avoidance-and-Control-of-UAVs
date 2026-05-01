@@ -1,0 +1,5 @@
+/home/leonardo/ros2_quadcopter_ws/src/controller/controller_pkg/controller_pkg/build/drone_controller/target/release/build/icasadi_drone_controller-72ea7b95e98a57d4/build_script_build-72ea7b95e98a57d4: icasadi_drone_controller/build.rs
+
+/home/leonardo/ros2_quadcopter_ws/src/controller/controller_pkg/controller_pkg/build/drone_controller/target/release/build/icasadi_drone_controller-72ea7b95e98a57d4/build_script_build-72ea7b95e98a57d4.d: icasadi_drone_controller/build.rs
+
+icasadi_drone_controller/build.rs:

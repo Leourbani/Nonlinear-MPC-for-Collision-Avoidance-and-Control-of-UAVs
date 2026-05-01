@@ -1,0 +1,47 @@
+ROS2 instructions, to run the code:
+
+Enter in workspace:
+```
+cd ~/ros2_quadcopter_ws
+```
+
+In each terminal:
+```
+source install/setup.bash
+```
+
+In one terminal:
+```
+colcon build --symlink-install 
+```
+
+To compile the solver:
+```
+cd ~/ros2_quadcopter_ws/src/controller/controller_pkg/controller_pkg/
+python3 solver_generator_ros.py
+```
+
+In two terminals (for server.py and open_node):
+```
+cd ~/ros2_quadcopter_ws/src/controller/controller_pkg/controller_pkg/
+```
+
+
+GAZEBO (in ~/ros2_quadcopter_ws):
+```
+ros2 launch simple_quad simple.launch.py
+```
+
+Server (in ~/ros2_quadcopter_ws/src/controller/controller_pkg/controller_pkg/):
+```
+python3 server.py
+```
+
+Node (in ~/ros2_quadcopter_ws/src/controller/controller_pkg/controller_pkg/):
+```
+ros2 run controller_pkg open_node 
+```
+
+
+
+

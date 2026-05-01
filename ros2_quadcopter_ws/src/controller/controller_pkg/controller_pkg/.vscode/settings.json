@@ -1,0 +1,18 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/leonardo/ros2_quadcopter_ws/build/tf_transformations",
+        "/home/leonardo/ros2_quadcopter_ws/install/tf_transformations/lib/python3.10/site-packages",
+        "/home/leonardo/ros2_quadcopter_ws/build/controller_pkg",
+        "/home/leonardo/ros2_quadcopter_ws/install/controller_pkg/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/leonardo/ros2_quadcopter_ws/build/tf_transformations",
+        "/home/leonardo/ros2_quadcopter_ws/install/tf_transformations/lib/python3.10/site-packages",
+        "/home/leonardo/ros2_quadcopter_ws/build/controller_pkg",
+        "/home/leonardo/ros2_quadcopter_ws/install/controller_pkg/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

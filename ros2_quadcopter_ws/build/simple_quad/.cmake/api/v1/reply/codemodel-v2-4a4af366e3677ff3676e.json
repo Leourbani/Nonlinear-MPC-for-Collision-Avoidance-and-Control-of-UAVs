@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-d03cf3f3f64da62f11d7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "simple_quad",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros_simple_quad::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros_simple_quad-ae32bd7649686827e9c3.json",
+					"name" : "gazebo_ros_simple_quad",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_quad_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_quad_uninstall-9bcb256c65f8f059c61b.json",
+					"name" : "simple_quad_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-634ededaed8990e10c28.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/build/simple_quad",
+		"source" : "/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/src/simple_quadcopter_gazebo"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

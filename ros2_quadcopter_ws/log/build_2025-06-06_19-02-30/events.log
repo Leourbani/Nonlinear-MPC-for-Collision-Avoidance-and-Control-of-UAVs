@@ -1,0 +1,482 @@
+[0.000000] (-) TimerEvent: {}
+[0.000507] (controller_pkg) JobQueued: {'identifier': 'controller_pkg', 'dependencies': OrderedDict()}
+[0.000870] (simple_quad) JobQueued: {'identifier': 'simple_quad', 'dependencies': OrderedDict()}
+[0.000901] (controller_pkg) JobStarted: {'identifier': 'controller_pkg'}
+[0.014201] (simple_quad) JobStarted: {'identifier': 'simple_quad'}
+[0.099745] (-) TimerEvent: {}
+[0.200047] (-) TimerEvent: {}
+[0.300336] (-) TimerEvent: {}
+[0.356242] (simple_quad) JobProgress: {'identifier': 'simple_quad', 'progress': 'cmake'}
+[0.356986] (simple_quad) Command: {'cmd': ['/usr/bin/cmake', '/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/src/simple_quadcopter_gazebo', '-DCMAKE_INSTALL_PREFIX=/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/simple_quad'], 'cwd': '/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/build/simple_quad', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'davide'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/simple_quad/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:$LD_LIBRARY_PATH:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/davide'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/src'), ('TERM_PROGRAM_VERSION', '1.96.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'it_IT.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1501'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1673'), ('BUNDLED_DEBUGPY_PATH', '/home/davide/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4903'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'davide'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('JOURNAL_STREAM', '8:12623'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'davide'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:/opt/ros/humble/share:/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/davide/.local/bin:/opt/ros/humble/bin:/home/davide/.cargo/bin:/home/davide/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/davide/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/davide-hp-pavilion-gaming-laptop-16-a0xxx:@/tmp/.ICE-unix/1635,unix/davide-hp-pavilion-gaming-laptop-16-a0xxx:/tmp/.ICE-unix/1635'), ('INVOCATION_ID', '413c30b8f015463ca7d0b00ec039df41'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/davide/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-4444c2c136c496af.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.HBIM72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-054c27dd8e.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/tf_transformations:/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/controller_pkg:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:/opt/ros/humble/share:/usr/share/gazebo/../../share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/build/simple_quad'), ('QT_QPA_PLATFORM', 'xcb'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/leonardo/ros2_quadcopter_ws/build/tf_transformations:/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/tf_transformations/lib/python3.10/site-packages:/home/leonardo/ros2_quadcopter_ws/build/controller_pkg:/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/controller_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/simple_quad:/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/tf_transformations:/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/controller_pkg:/opt/ros/humble')]), 'shell': False}
+[0.400425] (-) TimerEvent: {}
+[0.467678] (simple_quad) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.500520] (-) TimerEvent: {}
+[0.573277] (simple_quad) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.586697] (simple_quad) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.600602] (-) TimerEvent: {}
+[0.658477] (simple_quad) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.672045] (simple_quad) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.672280] (simple_quad) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.673174] (simple_quad) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.677527] (simple_quad) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.700702] (-) TimerEvent: {}
+[0.756651] (simple_quad) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.770328] (simple_quad) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.770599] (simple_quad) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.771101] (simple_quad) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.778639] (simple_quad) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.800782] (-) TimerEvent: {}
+[0.900999] (-) TimerEvent: {}
+[0.945627] (simple_quad) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.967313] (controller_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/controller_pkg', 'build', '--build-base', '/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/build/controller_pkg/build', 'install', '--record', '/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/build/controller_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/src/controller/controller_pkg', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'davide', 'LC_TIME': 'it_IT.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/simple_quad/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:$LD_LIBRARY_PATH:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:', 'HOME': '/home/davide', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/src', 'TERM_PROGRAM_VERSION': '1.96.0', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'it_IT.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1501', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '1673', 'BUNDLED_DEBUGPY_PATH': '/home/davide/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4903', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'davide', 'IGN_GAZEBO_MODEL_PATH': '/opt/ros/humble/share', 'JOURNAL_STREAM': '8:12623', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'davide', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo/../../share/gazebo-11/models:/opt/ros/humble/share:/usr/share/gazebo/../../share/gazebo-11/models:', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/home/davide/.local/bin:/opt/ros/humble/bin:/home/davide/.cargo/bin:/home/davide/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/davide/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/davide-hp-pavilion-gaming-laptop-16-a0xxx:@/tmp/.ICE-unix/1635,unix/davide-hp-pavilion-gaming-laptop-16-a0xxx:/tmp/.ICE-unix/1635', 'INVOCATION_ID': '413c30b8f015463ca7d0b00ec039df41', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'it_IT.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/davide/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-4444c2c136c496af.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'it_IT.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.HBIM72', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-054c27dd8e.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/tf_transformations:/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/controller_pkg:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'it_IT.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/humble/share', 'LC_MEASUREMENT': 'it_IT.UTF-8', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo/../../share/gazebo-11:/opt/ros/humble/share:/usr/share/gazebo/../../share/gazebo-11:', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'it_IT.UTF-8', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/build/controller_pkg', 'QT_QPA_PLATFORM': 'xcb', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/build/controller_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/controller_pkg/lib/python3.10/site-packages:/home/leonardo/ros2_quadcopter_ws/build/tf_transformations:/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/tf_transformations/lib/python3.10/site-packages:/home/leonardo/ros2_quadcopter_ws/build/controller_pkg:/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/controller_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'it_IT.UTF-8', 'LC_PAPER': 'it_IT.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/simple_quad'}, 'shell': False}
+[1.001099] (-) TimerEvent: {}
+[1.073742] (simple_quad) StdoutLine: {'line': b'-- Found camera_info_manager: 3.1.10 (/opt/ros/humble/share/camera_info_manager/cmake)\n'}
+[1.101191] (-) TimerEvent: {}
+[1.144415] (simple_quad) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.151638] (simple_quad) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.164061] (simple_quad) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.183038] (simple_quad) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.201270] (-) TimerEvent: {}
+[1.206659] (simple_quad) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.264562] (simple_quad) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.268649] (simple_quad) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.281459] (controller_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.281936] (controller_pkg) StdoutLine: {'line': b'creating ../../../build/controller_pkg/controller_pkg.egg-info\n'}
+[1.282217] (controller_pkg) StdoutLine: {'line': b'writing ../../../build/controller_pkg/controller_pkg.egg-info/PKG-INFO\n'}
+[1.282430] (controller_pkg) StdoutLine: {'line': b'writing dependency_links to ../../../build/controller_pkg/controller_pkg.egg-info/dependency_links.txt\n'}
+[1.282704] (controller_pkg) StdoutLine: {'line': b'writing entry points to ../../../build/controller_pkg/controller_pkg.egg-info/entry_points.txt\n'}
+[1.282847] (controller_pkg) StdoutLine: {'line': b'writing requirements to ../../../build/controller_pkg/controller_pkg.egg-info/requires.txt\n'}
+[1.282935] (controller_pkg) StdoutLine: {'line': b'writing top-level names to ../../../build/controller_pkg/controller_pkg.egg-info/top_level.txt\n'}
+[1.283062] (controller_pkg) StdoutLine: {'line': b"writing manifest file '../../../build/controller_pkg/controller_pkg.egg-info/SOURCES.txt'\n"}
+[1.285198] (controller_pkg) StdoutLine: {'line': b"reading manifest file '../../../build/controller_pkg/controller_pkg.egg-info/SOURCES.txt'\n"}
+[1.285380] (controller_pkg) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.286177] (controller_pkg) StdoutLine: {'line': b"writing manifest file '../../../build/controller_pkg/controller_pkg.egg-info/SOURCES.txt'\n"}
+[1.286312] (controller_pkg) StdoutLine: {'line': b'running build\n'}
+[1.286386] (controller_pkg) StdoutLine: {'line': b'running build_py\n'}
+[1.286496] (controller_pkg) StdoutLine: {'line': b'creating /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/build/controller_pkg/build\n'}
+[1.286624] (controller_pkg) StdoutLine: {'line': b'creating /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/build/controller_pkg/build/lib\n'}
+[1.286730] (controller_pkg) StdoutLine: {'line': b'creating /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/build/controller_pkg/build/lib/controller_pkg\n'}
+[1.286808] (controller_pkg) StdoutLine: {'line': b'copying controller_pkg/open_node.py -> /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/build/controller_pkg/build/lib/controller_pkg\n'}
+[1.286958] (controller_pkg) StdoutLine: {'line': b'copying controller_pkg/server.py -> /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/build/controller_pkg/build/lib/controller_pkg\n'}
+[1.287141] (controller_pkg) StdoutLine: {'line': b'copying controller_pkg/solver_generator_ros.py -> /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/build/controller_pkg/build/lib/controller_pkg\n'}
+[1.287296] (controller_pkg) StdoutLine: {'line': b'copying controller_pkg/__init__.py -> /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/build/controller_pkg/build/lib/controller_pkg\n'}
+[1.287476] (controller_pkg) StdoutLine: {'line': b'running install\n'}
+[1.287929] (controller_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[1.288833] (controller_pkg) StdoutLine: {'line': b'creating /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/controller_pkg/lib/python3.10/site-packages/controller_pkg\n'}
+[1.289061] (controller_pkg) StdoutLine: {'line': b'copying /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/build/controller_pkg/build/lib/controller_pkg/open_node.py -> /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/controller_pkg/lib/python3.10/site-packages/controller_pkg\n'}
+[1.289258] (controller_pkg) StdoutLine: {'line': b'copying /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/build/controller_pkg/build/lib/controller_pkg/server.py -> /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/controller_pkg/lib/python3.10/site-packages/controller_pkg\n'}
+[1.289432] (controller_pkg) StdoutLine: {'line': b'copying /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/build/controller_pkg/build/lib/controller_pkg/solver_generator_ros.py -> /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/controller_pkg/lib/python3.10/site-packages/controller_pkg\n'}
+[1.289558] (controller_pkg) StdoutLine: {'line': b'copying /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/build/controller_pkg/build/lib/controller_pkg/__init__.py -> /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/controller_pkg/lib/python3.10/site-packages/controller_pkg\n'}
+[1.290021] (controller_pkg) StdoutLine: {'line': b'byte-compiling /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/controller_pkg/lib/python3.10/site-packages/controller_pkg/open_node.py to open_node.cpython-310.pyc\n'}
+[1.295637] (controller_pkg) StdoutLine: {'line': b'byte-compiling /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/controller_pkg/lib/python3.10/site-packages/controller_pkg/server.py to server.cpython-310.pyc\n'}
+[1.295909] (controller_pkg) StdoutLine: {'line': b'byte-compiling /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/controller_pkg/lib/python3.10/site-packages/controller_pkg/solver_generator_ros.py to solver_generator_ros.cpython-310.pyc\n'}
+[1.297295] (controller_pkg) StdoutLine: {'line': b'byte-compiling /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/controller_pkg/lib/python3.10/site-packages/controller_pkg/__init__.py to __init__.cpython-310.pyc\n'}
+[1.297500] (controller_pkg) StdoutLine: {'line': b'running install_data\n'}
+[1.297646] (controller_pkg) StdoutLine: {'line': b'creating /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/controller_pkg/share/ament_index\n'}
+[1.297788] (controller_pkg) StdoutLine: {'line': b'creating /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/controller_pkg/share/ament_index/resource_index\n'}
+[1.297916] (controller_pkg) StdoutLine: {'line': b'creating /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/controller_pkg/share/ament_index/resource_index/packages\n'}
+[1.298074] (controller_pkg) StdoutLine: {'line': b'copying resource/controller_pkg -> /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/controller_pkg/share/ament_index/resource_index/packages\n'}
+[1.298171] (controller_pkg) StdoutLine: {'line': b'copying package.xml -> /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/controller_pkg/share/controller_pkg\n'}
+[1.298260] (controller_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.299979] (controller_pkg) StdoutLine: {'line': b'Copying ../../../build/controller_pkg/controller_pkg.egg-info to /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/controller_pkg/lib/python3.10/site-packages/controller_pkg-0.0.0-py3.10.egg-info\n'}
+[1.300749] (controller_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[1.301341] (-) TimerEvent: {}
+[1.325549] (controller_pkg) StdoutLine: {'line': b'Installing control_input_converter script to /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/controller_pkg/lib/controller_pkg\n'}
+[1.325804] (controller_pkg) StdoutLine: {'line': b'Installing controller_node script to /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/controller_pkg/lib/controller_pkg\n'}
+[1.326000] (controller_pkg) StdoutLine: {'line': b'Installing controller_node_basic script to /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/controller_pkg/lib/controller_pkg\n'}
+[1.326200] (controller_pkg) StdoutLine: {'line': b'Installing controller_node_conversion script to /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/controller_pkg/lib/controller_pkg\n'}
+[1.326323] (controller_pkg) StdoutLine: {'line': b'Installing input_signal_producer_node script to /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/controller_pkg/lib/controller_pkg\n'}
+[1.326440] (controller_pkg) StdoutLine: {'line': b'Installing open_node script to /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/controller_pkg/lib/controller_pkg\n'}
+[1.326612] (controller_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/build/controller_pkg/install.log'\n"}
+[1.361745] (controller_pkg) CommandEnded: {'returncode': 0}
+[1.377013] (controller_pkg) JobEnded: {'identifier': 'controller_pkg', 'rc': 0}
+[1.392398] (simple_quad) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.401445] (-) TimerEvent: {}
+[1.429470] (simple_quad) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.474377] (simple_quad) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.488294] (simple_quad) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.501535] (-) TimerEvent: {}
+[1.569142] (simple_quad) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.569426] (simple_quad) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.601637] (-) TimerEvent: {}
+[1.644009] (simple_quad) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.644973] (simple_quad) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.701733] (-) TimerEvent: {}
+[1.762959] (simple_quad) StdoutLine: {'line': b'-- Found gazebo_dev: 3.9.0 (/opt/ros/humble/share/gazebo_dev/cmake)\n'}
+[1.770740] (simple_quad) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[1.772372] (simple_quad) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[1.784880] (simple_quad) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[1.801826] (-) TimerEvent: {}
+[1.883358] (simple_quad) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[1.901918] (-) TimerEvent: {}
+[1.930623] (simple_quad) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[1.963218] (simple_quad) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[2.000392] (simple_quad) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[2.001948] (-) TimerEvent: {}
+[2.027112] (simple_quad) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[2.036228] (simple_quad) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.049115] (simple_quad) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[2.051160] (simple_quad) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[2.051862] (simple_quad) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[2.058377] (simple_quad) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[2.072515] (simple_quad) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[2.102053] (-) TimerEvent: {}
+[2.104048] (simple_quad) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[2.115602] (simple_quad) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[2.128448] (simple_quad) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[2.138755] (simple_quad) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[2.138999] (simple_quad) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[2.145603] (simple_quad) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[2.145838] (simple_quad) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[2.153431] (simple_quad) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[2.153700] (simple_quad) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[2.161999] (simple_quad) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[2.162242] (simple_quad) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[2.169496] (simple_quad) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[2.169721] (simple_quad) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[2.177558] (simple_quad) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[2.202142] (-) TimerEvent: {}
+[2.296902] (simple_quad) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.300265] (simple_quad) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[2.300919] (simple_quad) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[2.302208] (-) TimerEvent: {}
+[2.323792] (simple_quad) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[2.340069] (simple_quad) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[2.345786] (simple_quad) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[2.360246] (simple_quad) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[2.393810] (simple_quad) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[2.399640] (simple_quad) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[2.402308] (-) TimerEvent: {}
+[2.412092] (simple_quad) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[2.442249] (simple_quad) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[2.445873] (simple_quad) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[2.446535] (simple_quad) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[2.466248] (simple_quad) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.471718] (simple_quad) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[2.483542] (simple_quad) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[2.502409] (-) TimerEvent: {}
+[2.512911] (simple_quad) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[2.515800] (simple_quad) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[2.516350] (simple_quad) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[2.516901] (simple_quad) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[2.518576] (simple_quad) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[2.520082] (simple_quad) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[2.533220] (simple_quad) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[2.533941] (simple_quad) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[2.536713] (simple_quad) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[2.537200] (simple_quad) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[2.537545] (simple_quad) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.541745] (simple_quad) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[2.542401] (simple_quad) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[2.602523] (-) TimerEvent: {}
+[2.607047] (simple_quad) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[2.617694] (simple_quad) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[2.631938] (simple_quad) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[2.661601] (simple_quad) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[2.667646] (simple_quad) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[2.679505] (simple_quad) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[2.702649] (-) TimerEvent: {}
+[2.706827] (simple_quad) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[2.707393] (simple_quad) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[2.707916] (simple_quad) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.708454] (simple_quad) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[2.713552] (simple_quad) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[2.713906] (simple_quad) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[2.727560] (simple_quad) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[2.762155] (simple_quad) StdoutLine: {'line': b'-- Found gazebo_msgs: 3.7.0 (/opt/ros/humble/share/gazebo_msgs/cmake)\n'}
+[2.802768] (-) TimerEvent: {}
+[2.810944] (simple_quad) StdoutLine: {'line': b'-- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[2.817813] (simple_quad) StdoutLine: {'line': b'-- Found image_transport: 3.1.10 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[2.856237] (simple_quad) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[2.870079] (simple_quad) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[2.893208] (simple_quad) StdoutLine: {'line': b'-- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[2.902882] (-) TimerEvent: {}
+[2.908710] (simple_quad) StdoutLine: {'line': b'-- Found tf2: 0.25.9 (/opt/ros/humble/share/tf2/cmake)\n'}
+[2.915886] (simple_quad) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.9 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[2.928177] (simple_quad) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[2.930347] (simple_quad) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[2.930528] (simple_quad) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[3.002996] (-) TimerEvent: {}
+[3.049476] (simple_quad) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.103105] (-) TimerEvent: {}
+[3.139832] (simple_quad) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.144912] (simple_quad) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.145384] (simple_quad) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/src/simple_quadcopter_gazebo/include\n'}
+[3.145478] (simple_quad) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.150145] (simple_quad) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.150367] (simple_quad) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.151562] (simple_quad) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.153476] (simple_quad) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.154738] (simple_quad) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.159416] (simple_quad) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.159591] (simple_quad) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.160968] (simple_quad) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.163616] (simple_quad) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.198634] (simple_quad) StdoutLine: {'line': b'-- Generating done\n'}
+[3.203191] (-) TimerEvent: {}
+[3.206882] (simple_quad) StdoutLine: {'line': b'-- Build files have been written to: /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/build/simple_quad\n'}
+[3.225460] (simple_quad) CommandEnded: {'returncode': 0}
+[3.226417] (simple_quad) JobProgress: {'identifier': 'simple_quad', 'progress': 'build'}
+[3.227349] (simple_quad) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/build/simple_quad', '--', '-j8', '-l8'], 'cwd': '/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/build/simple_quad', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'davide'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/simple_quad/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:$LD_LIBRARY_PATH:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/davide'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/src'), ('TERM_PROGRAM_VERSION', '1.96.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'it_IT.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1501'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1673'), ('BUNDLED_DEBUGPY_PATH', '/home/davide/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4903'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'davide'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('JOURNAL_STREAM', '8:12623'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'davide'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:/opt/ros/humble/share:/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/davide/.local/bin:/opt/ros/humble/bin:/home/davide/.cargo/bin:/home/davide/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/davide/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/davide-hp-pavilion-gaming-laptop-16-a0xxx:@/tmp/.ICE-unix/1635,unix/davide-hp-pavilion-gaming-laptop-16-a0xxx:/tmp/.ICE-unix/1635'), ('INVOCATION_ID', '413c30b8f015463ca7d0b00ec039df41'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/davide/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-4444c2c136c496af.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.HBIM72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-054c27dd8e.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/tf_transformations:/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/controller_pkg:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:/opt/ros/humble/share:/usr/share/gazebo/../../share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/build/simple_quad'), ('QT_QPA_PLATFORM', 'xcb'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/leonardo/ros2_quadcopter_ws/build/tf_transformations:/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/tf_transformations/lib/python3.10/site-packages:/home/leonardo/ros2_quadcopter_ws/build/controller_pkg:/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/controller_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/simple_quad:/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/tf_transformations:/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/controller_pkg:/opt/ros/humble')]), 'shell': False}
+[3.283368] (simple_quad) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_ros_simple_quad.dir/src/gazebo_ros_simple_quad.cpp.o\x1b[0m\n'}
+[3.303312] (-) TimerEvent: {}
+[3.403543] (-) TimerEvent: {}
+[3.503796] (-) TimerEvent: {}
+[3.604090] (-) TimerEvent: {}
+[3.704331] (-) TimerEvent: {}
+[3.804602] (-) TimerEvent: {}
+[3.904898] (-) TimerEvent: {}
+[4.005210] (-) TimerEvent: {}
+[4.105514] (-) TimerEvent: {}
+[4.205785] (-) TimerEvent: {}
+[4.306148] (-) TimerEvent: {}
+[4.406451] (-) TimerEvent: {}
+[4.506780] (-) TimerEvent: {}
+[4.607226] (-) TimerEvent: {}
+[4.707495] (-) TimerEvent: {}
+[4.807758] (-) TimerEvent: {}
+[4.908071] (-) TimerEvent: {}
+[5.008481] (-) TimerEvent: {}
+[5.108799] (-) TimerEvent: {}
+[5.209079] (-) TimerEvent: {}
+[5.309375] (-) TimerEvent: {}
+[5.409661] (-) TimerEvent: {}
+[5.509963] (-) TimerEvent: {}
+[5.610281] (-) TimerEvent: {}
+[5.710561] (-) TimerEvent: {}
+[5.810869] (-) TimerEvent: {}
+[5.911174] (-) TimerEvent: {}
+[6.011467] (-) TimerEvent: {}
+[6.111762] (-) TimerEvent: {}
+[6.212067] (-) TimerEvent: {}
+[6.312333] (-) TimerEvent: {}
+[6.412602] (-) TimerEvent: {}
+[6.512913] (-) TimerEvent: {}
+[6.613190] (-) TimerEvent: {}
+[6.713507] (-) TimerEvent: {}
+[6.813794] (-) TimerEvent: {}
+[6.914102] (-) TimerEvent: {}
+[7.014371] (-) TimerEvent: {}
+[7.114671] (-) TimerEvent: {}
+[7.214968] (-) TimerEvent: {}
+[7.315257] (-) TimerEvent: {}
+[7.415519] (-) TimerEvent: {}
+[7.515806] (-) TimerEvent: {}
+[7.616071] (-) TimerEvent: {}
+[7.716325] (-) TimerEvent: {}
+[7.816588] (-) TimerEvent: {}
+[7.916883] (-) TimerEvent: {}
+[8.017151] (-) TimerEvent: {}
+[8.117455] (-) TimerEvent: {}
+[8.217750] (-) TimerEvent: {}
+[8.318086] (-) TimerEvent: {}
+[8.418375] (-) TimerEvent: {}
+[8.518662] (-) TimerEvent: {}
+[8.618960] (-) TimerEvent: {}
+[8.719249] (-) TimerEvent: {}
+[8.819535] (-) TimerEvent: {}
+[8.919793] (-) TimerEvent: {}
+[9.020096] (-) TimerEvent: {}
+[9.120389] (-) TimerEvent: {}
+[9.220671] (-) TimerEvent: {}
+[9.320932] (-) TimerEvent: {}
+[9.421193] (-) TimerEvent: {}
+[9.521482] (-) TimerEvent: {}
+[9.621776] (-) TimerEvent: {}
+[9.722097] (-) TimerEvent: {}
+[9.822365] (-) TimerEvent: {}
+[9.922696] (-) TimerEvent: {}
+[10.022995] (-) TimerEvent: {}
+[10.123324] (-) TimerEvent: {}
+[10.223630] (-) TimerEvent: {}
+[10.323896] (-) TimerEvent: {}
+[10.424194] (-) TimerEvent: {}
+[10.524488] (-) TimerEvent: {}
+[10.624782] (-) TimerEvent: {}
+[10.725088] (-) TimerEvent: {}
+[10.825383] (-) TimerEvent: {}
+[10.925680] (-) TimerEvent: {}
+[11.025977] (-) TimerEvent: {}
+[11.126279] (-) TimerEvent: {}
+[11.226577] (-) TimerEvent: {}
+[11.326903] (-) TimerEvent: {}
+[11.427210] (-) TimerEvent: {}
+[11.527514] (-) TimerEvent: {}
+[11.627818] (-) TimerEvent: {}
+[11.728123] (-) TimerEvent: {}
+[11.828476] (-) TimerEvent: {}
+[11.928805] (-) TimerEvent: {}
+[12.029162] (-) TimerEvent: {}
+[12.129493] (-) TimerEvent: {}
+[12.229828] (-) TimerEvent: {}
+[12.330147] (-) TimerEvent: {}
+[12.430409] (-) TimerEvent: {}
+[12.530705] (-) TimerEvent: {}
+[12.631000] (-) TimerEvent: {}
+[12.731260] (-) TimerEvent: {}
+[12.831520] (-) TimerEvent: {}
+[12.931815] (-) TimerEvent: {}
+[13.032090] (-) TimerEvent: {}
+[13.132387] (-) TimerEvent: {}
+[13.232679] (-) TimerEvent: {}
+[13.332975] (-) TimerEvent: {}
+[13.433240] (-) TimerEvent: {}
+[13.533502] (-) TimerEvent: {}
+[13.633796] (-) TimerEvent: {}
+[13.734079] (-) TimerEvent: {}
+[13.834346] (-) TimerEvent: {}
+[13.934616] (-) TimerEvent: {}
+[14.034883] (-) TimerEvent: {}
+[14.135159] (-) TimerEvent: {}
+[14.235428] (-) TimerEvent: {}
+[14.335697] (-) TimerEvent: {}
+[14.435972] (-) TimerEvent: {}
+[14.536234] (-) TimerEvent: {}
+[14.636496] (-) TimerEvent: {}
+[14.736761] (-) TimerEvent: {}
+[14.837008] (-) TimerEvent: {}
+[14.937243] (-) TimerEvent: {}
+[15.037519] (-) TimerEvent: {}
+[15.137819] (-) TimerEvent: {}
+[15.238101] (-) TimerEvent: {}
+[15.338337] (-) TimerEvent: {}
+[15.438566] (-) TimerEvent: {}
+[15.538836] (-) TimerEvent: {}
+[15.639143] (-) TimerEvent: {}
+[15.739407] (-) TimerEvent: {}
+[15.839675] (-) TimerEvent: {}
+[15.939952] (-) TimerEvent: {}
+[16.041274] (-) TimerEvent: {}
+[16.141604] (-) TimerEvent: {}
+[16.241871] (-) TimerEvent: {}
+[16.342152] (-) TimerEvent: {}
+[16.442426] (-) TimerEvent: {}
+[16.542713] (-) TimerEvent: {}
+[16.643026] (-) TimerEvent: {}
+[16.743303] (-) TimerEvent: {}
+[16.843652] (-) TimerEvent: {}
+[16.943952] (-) TimerEvent: {}
+[17.044231] (-) TimerEvent: {}
+[17.144502] (-) TimerEvent: {}
+[17.244752] (-) TimerEvent: {}
+[17.345086] (-) TimerEvent: {}
+[17.445360] (-) TimerEvent: {}
+[17.545638] (-) TimerEvent: {}
+[17.645943] (-) TimerEvent: {}
+[17.746272] (-) TimerEvent: {}
+[17.846595] (-) TimerEvent: {}
+[17.946869] (-) TimerEvent: {}
+[18.047147] (-) TimerEvent: {}
+[18.147417] (-) TimerEvent: {}
+[18.247675] (-) TimerEvent: {}
+[18.347939] (-) TimerEvent: {}
+[18.448164] (-) TimerEvent: {}
+[18.548420] (-) TimerEvent: {}
+[18.648678] (-) TimerEvent: {}
+[18.748946] (-) TimerEvent: {}
+[18.849173] (-) TimerEvent: {}
+[18.949433] (-) TimerEvent: {}
+[19.049695] (-) TimerEvent: {}
+[19.149959] (-) TimerEvent: {}
+[19.250216] (-) TimerEvent: {}
+[19.350471] (-) TimerEvent: {}
+[19.450725] (-) TimerEvent: {}
+[19.551050] (-) TimerEvent: {}
+[19.651287] (-) TimerEvent: {}
+[19.751539] (-) TimerEvent: {}
+[19.851795] (-) TimerEvent: {}
+[19.952048] (-) TimerEvent: {}
+[20.052302] (-) TimerEvent: {}
+[20.152558] (-) TimerEvent: {}
+[20.252811] (-) TimerEvent: {}
+[20.353013] (-) TimerEvent: {}
+[20.453274] (-) TimerEvent: {}
+[20.553500] (-) TimerEvent: {}
+[20.653754] (-) TimerEvent: {}
+[20.754011] (-) TimerEvent: {}
+[20.854270] (-) TimerEvent: {}
+[20.954526] (-) TimerEvent: {}
+[21.054748] (-) TimerEvent: {}
+[21.155003] (-) TimerEvent: {}
+[21.255254] (-) TimerEvent: {}
+[21.355478] (-) TimerEvent: {}
+[21.455738] (-) TimerEvent: {}
+[21.555994] (-) TimerEvent: {}
+[21.656249] (-) TimerEvent: {}
+[21.756476] (-) TimerEvent: {}
+[21.856730] (-) TimerEvent: {}
+[21.956982] (-) TimerEvent: {}
+[22.057206] (-) TimerEvent: {}
+[22.157465] (-) TimerEvent: {}
+[22.257720] (-) TimerEvent: {}
+[22.357987] (-) TimerEvent: {}
+[22.458246] (-) TimerEvent: {}
+[22.558500] (-) TimerEvent: {}
+[22.658726] (-) TimerEvent: {}
+[22.758987] (-) TimerEvent: {}
+[22.859246] (-) TimerEvent: {}
+[22.959576] (-) TimerEvent: {}
+[23.059995] (-) TimerEvent: {}
+[23.160299] (-) TimerEvent: {}
+[23.260597] (-) TimerEvent: {}
+[23.360894] (-) TimerEvent: {}
+[23.461197] (-) TimerEvent: {}
+[23.561497] (-) TimerEvent: {}
+[23.661807] (-) TimerEvent: {}
+[23.762163] (-) TimerEvent: {}
+[23.862485] (-) TimerEvent: {}
+[23.962822] (-) TimerEvent: {}
+[23.987220] (simple_quad) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libgazebo_ros_simple_quad.so\x1b[0m\n'}
+[24.062913] (-) TimerEvent: {}
+[24.163176] (-) TimerEvent: {}
+[24.263457] (-) TimerEvent: {}
+[24.363846] (-) TimerEvent: {}
+[24.464131] (-) TimerEvent: {}
+[24.564439] (-) TimerEvent: {}
+[24.664915] (-) TimerEvent: {}
+[24.765220] (-) TimerEvent: {}
+[24.865478] (-) TimerEvent: {}
+[24.965713] (-) TimerEvent: {}
+[25.065987] (-) TimerEvent: {}
+[25.166236] (-) TimerEvent: {}
+[25.266555] (-) TimerEvent: {}
+[25.300868] (simple_quad) StdoutLine: {'line': b'[100%] Built target gazebo_ros_simple_quad\n'}
+[25.313596] (simple_quad) CommandEnded: {'returncode': 0}
+[25.314493] (simple_quad) JobProgress: {'identifier': 'simple_quad', 'progress': 'install'}
+[25.322809] (simple_quad) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/build/simple_quad'], 'cwd': '/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/build/simple_quad', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'davide'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/simple_quad/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:$LD_LIBRARY_PATH:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/davide'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/src'), ('TERM_PROGRAM_VERSION', '1.96.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'it_IT.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1501'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1673'), ('BUNDLED_DEBUGPY_PATH', '/home/davide/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4903'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'davide'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('JOURNAL_STREAM', '8:12623'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'davide'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:/opt/ros/humble/share:/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/davide/.local/bin:/opt/ros/humble/bin:/home/davide/.cargo/bin:/home/davide/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/davide/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/davide-hp-pavilion-gaming-laptop-16-a0xxx:@/tmp/.ICE-unix/1635,unix/davide-hp-pavilion-gaming-laptop-16-a0xxx:/tmp/.ICE-unix/1635'), ('INVOCATION_ID', '413c30b8f015463ca7d0b00ec039df41'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/davide/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-4444c2c136c496af.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.HBIM72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-054c27dd8e.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/tf_transformations:/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/controller_pkg:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:/opt/ros/humble/share:/usr/share/gazebo/../../share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/build/simple_quad'), ('QT_QPA_PLATFORM', 'xcb'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/leonardo/ros2_quadcopter_ws/build/tf_transformations:/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/tf_transformations/lib/python3.10/site-packages:/home/leonardo/ros2_quadcopter_ws/build/controller_pkg:/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/controller_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/simple_quad:/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/tf_transformations:/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/controller_pkg:/opt/ros/humble')]), 'shell': False}
+[25.331410] (simple_quad) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[25.331677] (simple_quad) StdoutLine: {'line': b'-- Installing: /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/simple_quad/share/simple_quad/environment/library_path.sh\n'}
+[25.331937] (simple_quad) StdoutLine: {'line': b'-- Installing: /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/simple_quad/share/simple_quad/environment/library_path.dsv\n'}
+[25.332103] (simple_quad) StdoutLine: {'line': b'-- Installing: /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/simple_quad/share/simple_quad/launch\n'}
+[25.332290] (simple_quad) StdoutLine: {'line': b'-- Installing: /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/simple_quad/share/simple_quad/launch/simple.launch.py\n'}
+[25.332411] (simple_quad) StdoutLine: {'line': b'-- Installing: /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/simple_quad/share/simple_quad/urdf\n'}
+[25.332522] (simple_quad) StdoutLine: {'line': b'-- Installing: /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/simple_quad/share/simple_quad/urdf/simple_quad.urdf.xacro\n'}
+[25.332682] (simple_quad) StdoutLine: {'line': b'-- Installing: /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/simple_quad/share/simple_quad/models\n'}
+[25.332914] (simple_quad) StdoutLine: {'line': b'-- Installing: /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/simple_quad/share/simple_quad/models/my_moving_sphere\n'}
+[25.333085] (simple_quad) StdoutLine: {'line': b'-- Installing: /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/simple_quad/share/simple_quad/models/my_moving_sphere/model\n'}
+[25.333201] (simple_quad) StdoutLine: {'line': b'-- Installing: /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/simple_quad/share/simple_quad/models/my_moving_sphere/model/model.sdf\n'}
+[25.333313] (simple_quad) StdoutLine: {'line': b'-- Installing: /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/simple_quad/share/simple_quad/models/my_moving_sphere/model.config\n'}
+[25.333431] (simple_quad) StdoutLine: {'line': b'-- Installing: /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/simple_quad/include\n'}
+[25.333541] (simple_quad) StdoutLine: {'line': b'-- Installing: /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/simple_quad/include/simple_quad\n'}
+[25.333650] (simple_quad) StdoutLine: {'line': b'-- Installing: /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/simple_quad/include/simple_quad/gazebo_ros_simple_quad.hpp\n'}
+[25.333801] (simple_quad) StdoutLine: {'line': b'-- Installing: /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/simple_quad/lib/libgazebo_ros_simple_quad.so\n'}
+[25.341753] (simple_quad) StdoutLine: {'line': b'-- Set runtime path of "/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/simple_quad/lib/libgazebo_ros_simple_quad.so" to ""\n'}
+[25.342032] (simple_quad) StdoutLine: {'line': b'-- Installing: /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/simple_quad/share/ament_index/resource_index/package_run_dependencies/simple_quad\n'}
+[25.342202] (simple_quad) StdoutLine: {'line': b'-- Installing: /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/simple_quad/share/ament_index/resource_index/parent_prefix_path/simple_quad\n'}
+[25.342343] (simple_quad) StdoutLine: {'line': b'-- Installing: /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/simple_quad/share/simple_quad/environment/ament_prefix_path.sh\n'}
+[25.342478] (simple_quad) StdoutLine: {'line': b'-- Installing: /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/simple_quad/share/simple_quad/environment/ament_prefix_path.dsv\n'}
+[25.342611] (simple_quad) StdoutLine: {'line': b'-- Installing: /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/simple_quad/share/simple_quad/environment/path.sh\n'}
+[25.342747] (simple_quad) StdoutLine: {'line': b'-- Installing: /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/simple_quad/share/simple_quad/environment/path.dsv\n'}
+[25.342890] (simple_quad) StdoutLine: {'line': b'-- Installing: /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/simple_quad/share/simple_quad/local_setup.bash\n'}
+[25.343040] (simple_quad) StdoutLine: {'line': b'-- Installing: /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/simple_quad/share/simple_quad/local_setup.sh\n'}
+[25.343195] (simple_quad) StdoutLine: {'line': b'-- Installing: /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/simple_quad/share/simple_quad/local_setup.zsh\n'}
+[25.343350] (simple_quad) StdoutLine: {'line': b'-- Installing: /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/simple_quad/share/simple_quad/local_setup.dsv\n'}
+[25.343514] (simple_quad) StdoutLine: {'line': b'-- Installing: /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/simple_quad/share/simple_quad/package.dsv\n'}
+[25.343729] (simple_quad) StdoutLine: {'line': b'-- Installing: /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/simple_quad/share/ament_index/resource_index/packages/simple_quad\n'}
+[25.343941] (simple_quad) StdoutLine: {'line': b'-- Installing: /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/simple_quad/share/simple_quad/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[25.344153] (simple_quad) StdoutLine: {'line': b'-- Installing: /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/simple_quad/share/simple_quad/cmake/simple_quadConfig.cmake\n'}
+[25.344473] (simple_quad) StdoutLine: {'line': b'-- Installing: /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/simple_quad/share/simple_quad/cmake/simple_quadConfig-version.cmake\n'}
+[25.344600] (simple_quad) StdoutLine: {'line': b'-- Installing: /home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/install/simple_quad/share/simple_quad/package.xml\n'}
+[25.346208] (simple_quad) CommandEnded: {'returncode': 0}
+[25.363198] (simple_quad) JobEnded: {'identifier': 'simple_quad', 'rc': 0}
+[25.363879] (-) EventReactorShutdown: {}

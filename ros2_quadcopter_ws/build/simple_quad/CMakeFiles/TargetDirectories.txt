@@ -1,0 +1,10 @@
+/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/build/simple_quad/CMakeFiles/uninstall.dir
+/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/build/simple_quad/CMakeFiles/simple_quad_uninstall.dir
+/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/build/simple_quad/CMakeFiles/gazebo_ros_simple_quad.dir
+/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/build/simple_quad/CMakeFiles/test.dir
+/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/build/simple_quad/CMakeFiles/edit_cache.dir
+/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/build/simple_quad/CMakeFiles/rebuild_cache.dir
+/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/build/simple_quad/CMakeFiles/list_install_components.dir
+/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/build/simple_quad/CMakeFiles/install.dir
+/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/build/simple_quad/CMakeFiles/install/local.dir
+/home/davide/Politecnico Di Torino Studenti Dropbox/Davide Alban/Robotics_project/ros2_quadcopter_ws/build/simple_quad/CMakeFiles/install/strip.dir

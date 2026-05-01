@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<sdf version="1.7">
+  <model name="my_moving_sphere">
+    <pose>0 0 0 0 0 0</pose>
+    <!-- <kinematic>true</kinematic> -->
+    <link name="sphere_link">
+      <gravity>false</gravity>
+
+      <inertial>
+        <mass>1.0</mass>
+        <inertia>
+          <ixx>0.004</ixx> <ixy>0</ixy> <ixz>0</ixz>
+          <iyy>0.004</iyy> <iyz>0</iyz>
+          <izz>0.004</izz>
+        </inertia>
+      </inertial>
+
+      <visual name="visual">
+        <geometry>
+          <sphere><radius>0.1</radius></sphere>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Red</name>
+          </script>
+        </material>
+      </visual>
+      
+      <collision name="collision">
+        <geometry>
+          <sphere><radius>0.1</radius></sphere>
+        </geometry>
+      </collision>
+    </link>
+    <static>false</static>
+
+
+    <plugin name="gazebo_ros_vel_drive" filename="libgazebo_ros_simple_quad.so">
+        <ros>
+            <namespace>/</namespace> <remapping>cmd_vel:=sphere_cmd_vel</remapping> <remapping>odom:=sphere_odom</remapping>     </ros>
+        <link_name>sphere_link</link_name>
+        <odom_frame>odom</odom_frame>
+        <robot_base_frame>sphere_link</robot_base_frame> <publish_odom>true</publish_odom>
+        <update_rate>50.0</update_rate>
+    </plugin>    
+  </model>
+</sdf>

@@ -1,0 +1,8 @@
+[console_scripts]
+control_input_converter = controller_pkg.control_input_converter:main
+controller_node = controller_pkg.controller_node:main
+controller_node_basic = controller_pkg.controller_node_basic:main
+controller_node_conversion = controller_pkg.controller_node_conversion:main
+input_signal_producer_node = controller_pkg.input_signal_producer_node:main
+open_node = controller_pkg.open_node:main
+
